@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #1691a1;
+}
+
+p {    
+padding: 10px;
+text-align: justify;
+margin: 10px;
+}
+
+h2 {
+    padding-left: 100px;
+}
+
+.Topo {
+    margin: auto;
+    width: 100%;
+    padding: 13px 0px 10px 0px;
+    text-align: center;
+    background-color: #fac905;
+    font-size: 40px;
+}
+
+h1 {
+    margin: 20px;
+}
+.cidade {
+        width: 25%;
+        float: left;
+}
+
+.york{
+    float: left;
+    display: flex;
+    
+}
+
+.imagem {
+margin-top: 80px;
+padding: 0;
+height: 500px;
+
+}
+
+#nova {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    color: #f2f2f2;
+    font-size: 20px;
+}
