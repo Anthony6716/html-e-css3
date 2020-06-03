@@ -1,0 +1,335 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content:center;
+    height: 120px;
+}
+
+/*cabecalho*/
+
+.container {
+    width: 990px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+}
+
+/*nav*/
+
+nav ul,
+nav li {
+    list-style: none;
+    padding: 10px;
+    
+}
+
+nav ul {
+    display: flex;
+}
+
+nav a {
+    padding: 15px;
+    margin: 10px;
+    display: block;
+    text-decoration: none;
+    font-size: 15px;
+    color: #727272;
+    font-family: 'Zilla Slab', serif;
+}
+
+nav .ativo,
+li a:hover {
+    color: #f2f2f2;
+    background-color: #39aae1;
+}
+
+/*section Imagem de fundo e conteúdo sobre o console*/
+
+#banner {
+    display: flex;
+    justify-content: center;
+    background-image: url(../IMG/masseffect_2041123b.jpg);
+    background-size: cover;
+    background-position: left;
+    height: 900px;
+}
+
+.column {
+    flex-direction: column; 
+}
+
+.texto {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.texto h1 {
+    color: #fff;
+    font-size: 60px;
+    text-shadow: 2px 2px #000;
+    margin: 0;
+    padding: 0;
+    max-width: 700px;
+    
+}
+
+.texto h2 {
+    color: #fff;
+    font-size: 25px;
+    text-shadow: 2px 1px #000;
+    margin-top: 30px;
+    max-width: 500px;
+}
+
+.opcoes {
+    height: 300px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.opcao1 {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    max-width: 300px;
+}
+
+
+.title {
+    margin-bottom: 20px;
+}
+
+.descricao {
+    margin-bottom: 20px;
+  
+}
+
+.bottom a {
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid #000;
+    text-decoration: none;
+    background-color: #cd3d0f;
+    color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-shadow: 1px 1px #000;
+}
+
+.title,
+.descricao {
+    font-size: 20px;
+    text-shadow: 2px 1px #021e6b;
+    color: #ffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*section 2 - Apresentação console*/
+#console{
+    margin-top: 100px;
+   }
+
+.console_ps4 {
+    display: flex;
+    justify-content: center;
+}
+
+.chefe {
+    width: 990px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.subtitulo_console {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title_ps4 {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7px;
+    color: #0070cc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo_console {
+    display: flex;
+    justify-content: center; 
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.titulo_console h2 {
+    font-size: 36px;
+    margin: 0;
+    color: #373A3C;
+    font-family: 'Gentium Book Basic', serif;
+}
+
+.apresentacao_console{
+    display: flex;
+    justify-content: center;
+}
+
+.paragrafos_console {
+    display: flex;
+    justify-content: center;
+    width: 980px;
+ }
+
+ .h3_console {
+    width: 490px;
+ }
+
+ .h3_console h3 {
+    margin: 0;
+ }
+ #centro {
+     margin-left: 70px;
+ }
+
+ #centro2 {
+    margin-left: 30%;
+ }
+
+ #centro3 {
+    margin-left:50px;
+ }
+
+ #centro4 {
+    margin-left: 30%;
+ }
+
+#centro,
+#centro2,
+#centro3,
+#centro4 {
+    font-size: 22px;
+    color: #373A3C;
+    margin-bottom: 10px;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.foto_console {
+    display: flex;
+    justify-content: center;
+}
+.foto_console img {
+   width: 800px;
+   height: 200px;
+}
+
+/*section 3 texto para apresentação do controle*/
+
+.dualshock {
+    margin-top: 200px;
+    height: 151px;
+    display: flex;
+    margin-left: 200px;
+}
+
+.shock {
+    max-width: 600px;
+    margin: 0;
+}
+
+.acessorios {
+    margin-left: 3px;
+    font-size: 14px;
+    color: #0070cc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.shock h2 {
+    margin: 3px 0px;
+    font-size: 36px;
+    color: #373A3c;
+    font-family:'Rajdhani', sans-serif;;
+}
+
+.shock p {
+    margin: 3px 0px;
+    font-size: 20px;
+    color: #373A3c;
+    font-family: 'Philosopher', sans-serif;
+}
+
+/*section 2 - Apresentação do controle e texto*/
+.controle img {
+    height: 800px;
+    width: 700px;
+}
+
+.controle {
+    display: flex;
+}
+
+.conteudo {
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    max-width: 390px;
+    margin-left: 50px;
+}
+
+.conteudo h2 {
+    font-size: 28px;
+    margin: 4px 0px;
+    color: #373a3c;
+    font-family: 'Abel', sans-serif;
+    text-shadow: 1px 1px #0070cc;
+}
+
+.conteudo p {
+    font-size: 16px;
+    margin: 3px 0px;
+    color: #373a3c;
+    font-family: 'Montaga', serif;
+    text-shadow: 1px 0px #373A3c;
+}
+
+.procurar {
+    margin: 30px 0px;
+}
+.procurar a {
+    border-radius: 3px;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: #0070cc;
+    color: #fff;
+    padding: 11px 20px;
+    font-family: 'Zilla Slab', serif;
+    text-shadow: 1px 0px #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
