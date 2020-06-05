@@ -27,12 +27,10 @@ header {
 }
 
 /*nav*/
-
 nav ul,
 nav li {
     list-style: none;
-    padding: 10px;
-    
+    padding: 10px; 
 }
 
 nav ul {
@@ -75,6 +73,7 @@ li a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    /*quando damos flex e temos duas div, a outra tem que ter uma altura*/
 }
 
 .texto h1 {
@@ -95,22 +94,15 @@ li a:hover {
     max-width: 500px;
 }
 
-.opcoes {
-    height: 300px;
-    display: flex;
-    justify-content: flex-end;
-}
-
-
 .opcao1 {
+    height: 300px;
     padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     max-width: 300px;
+    margin-left: 70%;
 }
-
-
 .title {
     margin-bottom: 20px;
 }
@@ -143,19 +135,10 @@ li a:hover {
 /*section 2 - Apresentação console*/
 #console{
     margin-top: 100px;
+    display: flex;
+    justify-content: center;
    }
 
-.console_ps4 {
-    display: flex;
-    justify-content: center;
-}
-
-.chefe {
-    width: 990px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
 .subtitulo_console {
     display: flex;
     justify-content: center;
@@ -193,11 +176,6 @@ li a:hover {
 .paragrafos_console {
     display: flex;
     justify-content: center;
-    width: 980px;
- }
-
- .h3_console {
-    width: 490px;
  }
 
  .h3_console h3 {
@@ -287,9 +265,9 @@ li a:hover {
     margin-top: 15%;
     display: flex;
     flex-direction: column;
-    height: 300px;
     max-width: 390px;
     margin-left: 50px;
+    
 }
 
 .conteudo h2 {
@@ -321,6 +299,73 @@ li a:hover {
     font-family: 'Zilla Slab', serif;
     text-shadow: 1px 0px #fff;
 }
+ 
+/*section 3 - Proximos lançamentos*/
+
+#geral {
+    display: flex;
+    justify-content: center;
+}
+
+.informacoes_title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.conteudo_text {
+    font-size: 30px;
+    font-weight: bold; 
+    font-family:'Rajdhani', sans-serif;;
+}
+
+article {
+    flex: 1;
+    min-width:400px;
+    margin-right: 20px;
+}
+
+.jogos_body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.jogos_data {
+    display: flex;
+}
+.jogos_posted {
+    background-color: #39aae1;
+    color: #fff;
+    font-size: 15px;
+    padding: 10px;
+    font-family: 'Abel', sans-serif;
+}
+
+.jogos_thumb {
+    margin-top: 30px;
+}
+.jogos_thumb img{
+    width: 100%;
+    height: auto;
+}
+
+.jogos_title {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 25px;
+    font-family:'Rajdhani', sans-serif;
+    font-weight: bold;
+}
+
+.jogos_resume {
+    font-size: 14px;
+    color: #5c5c5c;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
 
 
 
