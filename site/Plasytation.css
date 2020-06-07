@@ -355,18 +355,18 @@ li a:hover {
 .conteudo_text {
     font-size: 30px;
     font-weight: bold; 
-    font-family:'Rajdhani', sans-serif;;
+    font-family:'Rajdhani', sans-serif;
+}
+
+.jogos_body {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 article {
     flex: 1;
     min-width:400px;
     margin-right: 20px;
-}
-
-.jogos_body {
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .jogos_data {
@@ -403,12 +403,150 @@ article {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/*section  - Imagens jogos*/
+
+.jogos_imagens {
+    display: flex;
+    justify-content: center;
+    background-image: url(../IMG/days-gone-jpg.jpg);
+    background-size: cover;
+    height: 750px;
+}
+
+.img1 {
+    display: flex;
+    justify-content: flex-end;
+    width: 976px;
+}
+
+.days_gone {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-top: 20%;
+    margin-right: 50px;
+    background-color: rgba(31, 31, 31, 0.85);
+    color: #fff;
+    height: 250px;
+    padding: 15px;
+}
+
+.days_gone h3 {
+    margin: 5px 0;
+    font-size: 28px;
+    font-family: 'Noto Sans HK', sans-serif;
+}
+
+.days_gone p {
+    font-size: 16px;
+    font-family:'Rajdhani', sans-serif;
+}
+
+.bottom_gone {
+   margin-top: 20px;
+}
+
+.bottom_gone a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imagem_ghost {
+    display: flex;
+    background-image: url(../IMG/ghost-of-tsushima.jpg);
+    background-size: cover;
+    height: 750px;
+    margin-top: 2px;
+}
+.img2 {
+    display: flex;
+    width: 976px;
+    padding: 50px;
+}
+
+.ghost {
+    padding: 15px;
+    margin-top: 30px;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    background-color: rgba(31, 31, 31, 0.85);
+    color: #fff;
+    height: 200px;
+}
+
+.ghost h3 {
+    margin: 0;
+    font-size: 28px;
+    font-family: 'Noto Sans HK', sans-serif;
+}
+
+.ghost p {
+    font-size: 16px;
+    font-family:'Rajdhani', sans-serif;
+}
+
+.bottom_ghost {
+    margin-top: 20px;
+}
+.bottom_ghost a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 
+.imagem_spider {
+    display: flex;
+    justify-content: center;
+    background-image: url(../IMG/playstation-4-marvels-spider-man.jpg);
+    background-size: cover;
+    height: 750px;
+    margin-top: 2px;
+}
 
+.img3 {
+    display: flex;
+    justify-content: flex-end;
+    width: 976px;
+}
 
+.spider {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-top: 90px;
+    margin-right: 85px;
+    width: 320px;
+    background-color: rgba(255, 255, 255, 0.85);
+    color: #363636;
+    height: 210px;
+}
 
+.spider h3 {
+    margin: 0;
+    font-size: 28px;
+    font-family: 'Noto Sans HK', sans-serif;
+}
 
+.spider p {
+    font-size: 16px;
+    font-family:'Rajdhani', sans-serif;
+}
+
+.bottom_spider {
+    margin-top: 20px;
+}
+.bottom_spider a{
+    text-decoration: none;
+    color: #363636;;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 
 
