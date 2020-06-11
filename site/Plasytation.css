@@ -15,6 +15,10 @@ header {
     width: 990px;
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
 }
 
 .logo {
@@ -24,9 +28,11 @@ header {
 
 .logo img {
     width: 100px;
+    margin-left: 20px;
 }
 
 /*nav*/
+
 nav ul,
 nav li {
     list-style: none;
@@ -35,6 +41,7 @@ nav li {
 
 nav ul {
     display: flex;
+    margin-right: 100px;
 }
 
 nav a {
@@ -62,9 +69,13 @@ li a:hover {
     background-size: cover;
     background-position: left;
     height: 900px;
+    margin-top: 100px;
 }
 
 .column {
+    width: 990px;
+    display: flex;
+    justify-content: space-between;
     flex-direction: column; 
 }
 
@@ -241,7 +252,7 @@ li a:hover {
     margin: 3px 0px;
     font-size: 36px;
     color: #373A3c;
-    font-family:'Rajdhani', sans-serif;;
+    font-family:'Rajdhani', sans-serif;
 }
 
 .shock p {
@@ -284,11 +295,13 @@ li a:hover {
     color: #373a3c;
     font-family: 'Montaga', serif;
     text-shadow: 1px 0px #373A3c;
+    text-align: justify;
 }
 
 .procurar {
     margin: 30px 0px;
 }
+
 .procurar a {
     border-radius: 3px;
     font-size: 16px;
@@ -345,6 +358,12 @@ li a:hover {
 #geral {
     display: flex;
     justify-content: center;
+}
+
+.info {
+    width: 990px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .informacoes_title {
@@ -440,6 +459,7 @@ article {
 .days_gone p {
     font-size: 16px;
     font-family:'Rajdhani', sans-serif;
+    text-align: justify;
 }
 
 .bottom_gone {
@@ -487,6 +507,7 @@ article {
 .ghost p {
     font-size: 16px;
     font-family:'Rajdhani', sans-serif;
+    text-align: justify;
 }
 
 .bottom_ghost {
@@ -536,6 +557,7 @@ article {
 .spider p {
     font-size: 16px;
     font-family:'Rajdhani', sans-serif;
+    text-align: justify;
 }
 
 .bottom_spider {
@@ -548,14 +570,223 @@ article {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/*section  - Apresentação jogos*/
 
+#classicos {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+ 
+.jogos_classicos {
+    display: flex;
+    flex-direction: column;
+    width: 980px;
+    
+}
 
+.class {
+    display: flex;
+    flex-direction: column;
+  
+}
 
+.desejo {
+    font-size: 14px;
+    color: #0070cc;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+.jogue h2 {
+    margin: 0;
+    font-size: 36px;
+    color: #373a3c;
+    font-family: 'Noto Sans HK', sans-serif;
+}
 
+.texto_classicos{
+    width: 800px;
+    margin-top: 20px;
+   
+}
 
+.texto_classicos p {
+    color: #373a3c;
+    font-size: 20px;
+    font-family: 'Philosopher', sans-serif;
+}
 
+/*section  - Imagens jogos*/
 
+.the_show {
+    display: flex;
+    justify-content: center;
+    background-image: url(../IMG/playstation-4-mlb-the-show-19.jfif);
+    background-size: cover;
+    height: 750px;
+}
 
+.jogo_show {
+    display: flex;
+    width: 976px;
+}
+
+ .conteudo_show {
+    padding: 15px;
+    margin-top: 25%;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    background-color: rgba(31, 31, 31, 0.85);
+    color: #fff;
+    height: 300px;
+ }
+
+ .conteudo_show h3 {
+    margin: 5px 0px;
+    font-size: 28px;
+    font-family: 'Noto Sans HK', sans-serif;
+}
+
+ .conteudo_show p {
+    font-size: 16px;
+    font-family:'Rajdhani', sans-serif;
+    text-align: justify;
+ }
+
+ .bottom_show {
+    margin-top: 20px;
+ }
+
+.bottom_show a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ .crash {
+    display: flex;
+    justify-content: center;
+    background-image: url(../IMG/crash-team-racing-nitro.jfif);
+    background-size: cover;
+    height: 750px;
+    margin-top: 2px;
+  }
+
+.jogo_crash {
+    display: flex;
+    justify-content: flex-end;
+    width: 976px;
+}
+
+ .conteudo_crash {
+    padding: 15px;
+    margin-top: 10%;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    background-color: rgba(31, 31, 31, 0.85);
+    color: #fff;
+    height: 220px;
+ }
+
+.conteudo_crash h3 {
+    margin: 5px 0px;
+    font-size: 28px;
+    font-family: 'Noto Sans HK', sans-serif;
+ }
+
+ .conteudo_crash p {
+    font-size: 16px;
+    font-family:'Rajdhani', sans-serif;
+    text-align: justify;
+ }
+
+ .bottom_crash {
+    margin-top: 10px;
+ }
+
+.bottom_crash a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.kingdom {
+    display: flex;
+    justify-content: center;
+    background-image: url(../IMG/kingdom-hearts.jfif);
+    background-size: cover;
+    height: 750px;
+    margin-top: 2px;
+  }
+
+.jogo_kingdom {
+    display: flex;
+    width: 976px;
+}
+
+ .conteudo_kingdom {
+    padding: 15px;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.85);
+    color:  #363636;
+    height: 250px;
+ }
+
+ .conteudo_kingdom h3 {
+    margin: 5px 0px;
+    font-size: 28px;
+    font-family: 'Noto Sans HK', sans-serif;
+ }
+
+ .conteudo_kingdom p {
+    font-size: 16px;
+    font-family:'Rajdhani', sans-serif;
+    text-align: justify;
+ }
+
+ .bottom_kingdom {
+    margin-top: 20px;
+ }
+
+.bottom_kingdom a {
+    text-decoration: none;
+    color: #363636;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Footer  - Rodapé*/
+
+footer {
+    background-color:#000;
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    width: 990px;
+    background-color: blueviolet;
+    display: flex;
+}
+
+.footer_menu {
+    display: flex;
+    flex: 1;
+}
+
+.fm_1,
+.fm_2,
+.fm_3 {
+    flex: 1;
+}
 
 
