@@ -219,33 +219,13 @@ li a:hover {
 
  .h3_console h3 {
     margin: 0;
- }
- #centro {
-     margin-left: 70px;
- }
-
- #centro2 {
-    margin-left: 30%;
- }
-
- #centro3 {
-    margin-left:50px;
- }
-
- #centro4 {
-    margin-left: 30%;
- }
-
-#centro,
-#centro2,
-#centro3,
-#centro4 {
+    text-align: center;
     font-size: 22px;
     color: #373A3C;
     margin-bottom: 10px;
     font-family: 'Philosopher', sans-serif;
-}
-
+ }
+ 
 .foto_console {
     display: flex;
     justify-content: center;
@@ -791,7 +771,70 @@ article {
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
 }
-/*section - Playstation vr*/
+/*section - Playstation */
+
+.apresentacao_vr {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+  
+}
+
+.textos_vr {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.apresentando {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.apresentando h2 {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0070cc;
+}
+
+.imagem_vr {
+    display: flex;
+    justify-content: center;
+}
+
+.imagem_vr img {
+    width: 232px;
+    height: 42px;
+}
+
+.p_vr {
+    width: 800px;
+    margin-top: 10px;
+}
+
+.p_vr p{
+    font-size: 22px;
+    font-family: 'Noto Sans HK', sans-serif;
+    color: #373A3C;
+    text-align: center;
+}
+
+.bottom_vr {
+    display: flex;
+    justify-content: center;
+    margin: 35px 0px;
+}
+
+.bottom_vr a  {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    background-color: #0070cc;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 #vr {
     display: flex;
     justify-content: center;
@@ -800,16 +843,18 @@ article {
 .playstation_vr {
     display: flex;
     justify-content: center;
-    width: 990px;
+    flex-direction: column;
 }
 
-.video_vr {
-    display: flex;
-    justify-content: center;
-    width: 500px;
-    height: 500px; 
+.vr video {
+    width: 100%;
 }
-
+.vr img {
+    width: 750px;   
+    height: 450px;
+    position: absolute;
+    margin: 25% 20% 0%;
+}
 
 /*Footer  - Rodapé*/
 
