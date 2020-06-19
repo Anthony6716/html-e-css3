@@ -235,92 +235,6 @@ li a:hover {
    height: auto;
 }
 
-/*section 3 texto para apresentação do controle*/
-
-.dualshock {
-    margin-top: 200px;
-    height: 151px;
-    display: flex;
-    margin-left: 200px;
-}
-
-.shock {
-    max-width: 600px;
-    margin: 0;
-}
-
-.acessorios {
-    margin-left: 3px;
-    font-size: 14px;
-    color: #0070cc;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.shock h2 {
-    margin: 3px 0px;
-    font-size: 36px;
-    color: #373A3c;
-    font-family:'Rajdhani', sans-serif;
-}
-
-.shock p {
-    margin: 3px 0px;
-    font-size: 20px;
-    color: #373A3c;
-    font-family: 'Philosopher', sans-serif;
-}
-
-/*section 2 - Apresentação do controle e texto*/
-.controle img {
-    height: 800px;
-    width: 700px;
-}
-
-.controle {
-    display: flex;
-}
-
-.conteudo {
-    margin-top: 15%;
-    display: flex;
-    flex-direction: column;
-    max-width: 390px;
-    margin-left: 50px;
-    
-}
-
-.conteudo h2 {
-    font-size: 28px;
-    margin: 4px 0px;
-    color: #373a3c;
-    font-family: 'Abel', sans-serif;
-    text-shadow: 1px 1px #0070cc;
-}
-
-.conteudo p {
-    font-size: 16px;
-    margin: 3px 0px;
-    color: #373a3c;
-    font-family: 'Montaga', serif;
-    text-shadow: 1px 0px #373A3c;
-    text-align: justify;
-}
-
-.procurar {
-    margin: 30px 0px;
-}
-
-.procurar a {
-    border-radius: 3px;
-    font-size: 16px;
-    text-decoration: none;
-    background-color: #0070cc;
-    color: #fff;
-    padding: 11px 20px;
-    font-family: 'Zilla Slab', serif;
-    text-shadow: 1px 0px #fff;
-}
- 
 /*section 3 - Exclusividade playstation*/
 
 #exclusividade {
@@ -352,85 +266,16 @@ li a:hover {
     color: #373a3c;
 }
 
-/*section 5 - Imagens jogos*/
+/*section  - Imagens jogos*/
+
 #imagens {
     margin-top: 80px;
 }
- #imagens img {
+
+#imagens img {
     width: 100%;
     height: 750px;
  }
-
-/*section 4 - Proximos lançamentos*/
-
-#geral {
-    display: flex;
-    justify-content: center;
-}
-
-.info {
-    width: 990px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.informacoes_title {
-    margin-top: 30px;
-    margin-bottom: 20px;
-}
-
-.conteudo_text {
-    font-size: 30px;
-    font-weight: bold; 
-    font-family:'Rajdhani', sans-serif;
-}
-
-.jogos_body {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-article {
-    flex: 1;
-    min-width:400px;
-    margin-right: 20px;
-}
-
-.jogos_data {
-    display: flex;
-}
-.jogos_posted {
-    background-color: #39aae1;
-    color: #fff;
-    font-size: 15px;
-    padding: 10px;
-    font-family: 'Abel', sans-serif;
-}
-
-.jogos_thumb {
-    margin-top: 30px;
-}
-.jogos_thumb img{
-    width: 100%;
-    height: auto;
-}
-
-.jogos_title {
-    margin-top: 25px;
-    margin-bottom: 25px;
-    font-size: 25px;
-    font-family:'Rajdhani', sans-serif;
-    font-weight: bold;
-}
-
-.jogos_resume {
-    font-size: 14px;
-    color: #5c5c5c;
-    margin-bottom: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-/*section  - Imagens jogos*/
 
 .jogos_imagens {
     display: flex;
@@ -591,13 +436,11 @@ article {
     display: flex;
     flex-direction: column;
     width: 980px;
-    
 }
 
 .class {
     display: flex;
     flex-direction: column;
-  
 }
 
 .desejo {
@@ -622,7 +465,7 @@ article {
 .texto_classicos p {
     color: #373a3c;
     font-size: 20px;
-    font-family: 'Philosopher', sans-serif;;
+    font-family: 'Philosopher', sans-serif;
 }
 
 /*section  - Imagens jogos*/
@@ -771,7 +614,78 @@ article {
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
 }
-/*section - Playstation */
+
+/*section - Proximos lançamentos*/
+
+#geral {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.info {
+    width: 990px;
+    display: flex;
+}
+
+.informacoes_title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.conteudo_text {
+    font-size: 30px;
+    font-weight: bold; 
+    font-family:'Rajdhani', sans-serif;
+}
+
+.jogos_body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    flex: 1;
+    min-width:400px;
+    margin-right: 20px;
+}
+
+.jogos_data {
+    display: flex;
+}
+.jogos_posted {
+    background-color: #39aae1;
+    color: #fff;
+    font-size: 15px;
+    padding: 10px;
+    font-family: 'Abel', sans-serif;
+}
+
+.jogos_thumb {
+    margin-top: 30px;
+}
+.jogos_thumb img{
+    width: 100%;
+    height: auto;
+}
+
+.jogos_title {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 25px;
+    font-family:'Rajdhani', sans-serif;
+    font-weight: bold;
+}
+
+.jogos_resume {
+    font-size: 14px;
+    color: #5c5c5c;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+/*section - Apresentação Playstation Vr */
 
 .apresentacao_vr {
     display: flex;
@@ -849,6 +763,7 @@ article {
 .vr video {
     width: 100%;
 }
+
 .vr img {
     width: 750px;   
     height: 450px;
@@ -856,29 +771,201 @@ article {
     margin: 25% 20% 0%;
 }
 
-/*Footer  - Rodapé*/
+/*section - texto para apresentação do controle*/
 
-footer {
-    background-color:#000;
+.dualshock {
+    margin-top: 200px;
+    height: 151px;
+    display: flex;
+    margin-left: 200px;
+}
+
+.shock {
+    max-width: 600px;
+    margin: 0;
+}
+
+.acessorios {
+    margin-left: 3px;
+    font-size: 14px;
+    color: #0070cc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.shock h2 {
+    margin: 3px 0px;
+    font-size: 36px;
+    color: #373A3c;
+    font-family:'Rajdhani', sans-serif;
+}
+
+.shock p {
+    margin: 3px 0px;
+    font-size: 20px;
+    color: #373A3c;
+    font-family: 'Philosopher', sans-serif;
+}
+
+
+/*section  - Apresentação do controle e texto*/
+
+.controle img {
+    height: 800px;
+    width: 700px;
+}
+
+.controle {
+    display: flex;
+}
+
+.conteudo {
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    max-width: 390px;
+    margin-left: 50px;
+    
+}
+
+.conteudo h2 {
+    font-size: 28px;
+    margin: 4px 0px;
+    color: #373a3c;
+    font-family: 'Abel', sans-serif;
+    text-shadow: 1px 1px #0070cc;
+}
+
+.conteudo p {
+    font-size: 16px;
+    margin: 3px 0px;
+    color: #373a3c;
+    font-family: 'Montaga', serif;
+    text-shadow: 1px 0px #373A3c;
+    text-align: justify;
+}
+
+.procurar {
+    margin: 30px 0px;
+}
+
+.procurar a {
+    border-radius: 3px;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: #0070cc;
+    color: #fff;
+    padding: 11px 20px;
+    font-family: 'Zilla Slab', serif;
+    text-shadow: 1px 0px #fff;
+}
+
+/* Informaçoes adicionais*/
+
+.informacoes {
     display: flex;
     justify-content: center;
 }
 
-.footer {
-    width: 990px;
-    background-color: blueviolet;
+.adicionais {
     display: flex;
+    justify-content: center;
+    width: 990px;
+}
+
+.informacoes_adicionais {
+    width: 760px;
+    text-align: center;
+}
+
+.informacoes_adicionais p {
+    font-size: 16px;
+    margin-top: 20px;
+    color: #373A3C;
+    font-family: 'Noto Sans HK', sans-serif;
+}
+
+ 
+/*Footer  - Rodapé*/
+
+footer {
+    display: flex;
+    background-color: #00439c;
+    height: 280px;
+    margin-top: 100px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
 .footer_menu {
     display: flex;
-    flex: 1;
+    padding: 30px;
+    border-bottom: 1px solid #b5aaaa;
 }
 
-.fm_1,
-.fm_2,
-.fm_3 {
-    flex: 1;
+.footer_menu img{
+    width: 48px;
+    height: 38px;
 }
 
+.footer_menu li {
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 20px;
+}
 
+.footer_menu a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer_menu li a:hover {
+    background-color: #00439c;
+    color: #8fdd;
+    text-decoration: underline;
+}
+
+.footer_idioma {
+    display: flex;
+}
+
+.footer_idioma img{
+    width: 32px;
+    height: 32px;
+    padding: 30px; 
+}
+
+.footer_idioma h2 {
+    font-size: 22px;
+    font-family:'Rajdhani', sans-serif;
+    margin-top: 32px;
+}
+
+.footer_idioma h2 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer_idioma h2 a:hover {
+    color: #8fdd;
+}
+
+.esrb {
+    margin-left: 70%;
+}
+
+.esrb img{
+    width: 51px;
+    height: 68px;
+}
+
+footer p {
+    font-size: 16px;
+    color: #8fdd;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 30px;
+}
